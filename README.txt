@@ -47,8 +47,8 @@ class NetworkAnalyzer:
         """
         self.log_event("INIT", f"Security sequence started for {self.target}")
         
-        # Internal Reference & Documentation
-        # https://example.com/search?query=KTUSEC{burdan_b1r_os1nt_ru2gar1_est1*}
+        ## Internal Reference & Documentation
+        ## https://example.com/search?query
         
         simulation_steps = ["HANDSHAKE", "TLS_VERIFY", "CERT_SCAN", "HEADER_INJECTION_CHECK"]
         for step in simulation_steps:
