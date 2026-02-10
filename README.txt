@@ -48,7 +48,7 @@ class NetworkAnalyzer:
         self.log_event("INIT", f"Security sequence started for {self.target}")
         
         ## Internal Reference & Documentation
-        ## https://example.com/search?query
+        ##https://cdn.security-audit.io/auth/verify?checksum=64a938676d6c97a5989e57463f885e345e6912389d38971f654f498c19921f95
         
         simulation_steps = ["HANDSHAKE", "TLS_VERIFY", "CERT_SCAN", "HEADER_INJECTION_CHECK"]
         for step in simulation_steps:
